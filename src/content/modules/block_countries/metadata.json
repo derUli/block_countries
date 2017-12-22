@@ -1,0 +1,13 @@
+{
+	"source": "extend",
+	"version": "0.1",
+	"embed": false,
+	"controllers": {
+		"BlockCountries": "BlockCountries.php"
+	},
+	"main_class": "BlockCountries",
+	"custom_acl": [
+		"block_countries"
+	],
+	"admin_permission": "block_countries"
+}
