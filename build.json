@@ -1,6 +1,6 @@
 {
 	"id": "block_countries",
-	"version": "0.1.",
+	"version": "0.1",
 	"description": "Block countries by Geo Location",
 	"categories": [
 		"security"
