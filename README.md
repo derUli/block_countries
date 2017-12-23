@@ -5,7 +5,7 @@ Block access from some countries using Geolocation.
 ## Dependencies
 
 * UliCMS 2018.1
-* geoPlugin
+* geoPlugin Module
 
 ## Installation
 
@@ -14,7 +14,7 @@ Block access from some countries using Geolocation.
 
 ## Configuration
 
-Add blocked_countries to **cms-config.php**.
+Add the array **$blocked_countries** to the file **cms-config.php**.
 
 ```php
 var $blocked_countries = ["Vietnam", "China", "Pakistan", "Hong Kong", "Russian Federation", "India"];
