@@ -17,5 +17,5 @@ Block access from some countries using Geolocation.
 Add blocked_countries to **cms-config.php**.
 
 ```php
-	var $blocked_countries = ["Vietnam", "China", "Pakistan", "Hong Kong", "Russian Federation", "India"];
+var $blocked_countries = ["Vietnam", "China", "Pakistan", "Hong Kong", "Russian Federation", "India"];
 ```
