@@ -1,11 +1,11 @@
 {
 	"id": "block_countries",
-	"version": "0.1",
+	"version": "0.2",
 	"description": "Block countries by Geo Location",
 	"categories": [
 		"security"
 	],
-	"compatible_from": "2018.1",
+	"compatible_from": "2022.2",
 	"dependencies": [
 		"geoPlugin"
 	]

@@ -2,7 +2,7 @@
 class BlockCountries extends Controller {
 	private $moduleName = "block_countries";
 	public function beforeInit() {
-		$cfg = new config ();
+		$cfg = new CMSConfig ();
 		if (isset ( $cfg->blocked_countries ) and is_array ( $cfg->blocked_countries )) {
 			$geoIp = ModuleHelper::getMainController ( "geoPlugin" );
 			$location = $geoIp->getGeoLocation ();

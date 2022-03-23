@@ -1,5 +1,5 @@
 <?php
-$cfg = new config ();
+$cfg = new CMSConfig ();
 $list = array ();
 if (isset ( $cfg->blocked_countries ) and is_array ( $cfg->blocked_countries )) {
 	$list = $cfg->blocked_countries;
